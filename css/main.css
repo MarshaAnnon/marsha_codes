@@ -1,0 +1,284 @@
+/*****BASE STYLES*****/
+
+body #homepage {
+    font-family: Open Sans, sans-serif;
+    color: #066839;
+}
+
+/*hr {
+    background-color: #a6ce39;
+    border-style: solid;
+    color: #a6ce39;
+    height: 1px;
+    margin: auto;
+}
+*/
+
+/*****GRID*****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+    margin: 0 auto;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/******Header*******/
+
+header {
+    background: url("../img/hero-image.jpg");
+    height: 600px;
+}
+
+#homepage header h1 {
+    color: #545454;
+    font-family: nunito, sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+    margin: 25px 0px 0px 20px;
+    
+}
+
+header nav #top-section {
+    float: right;
+    padding: 75px 25px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: nunito, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #545454;
+    padding-left: 50px;
+}
+
+#homepage header h2  {
+
+    font-family: nunito, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 110px 0px 0px 40px;
+    padding: 5px;
+    color: #545454;
+}
+
+#homepage header h2 span {
+    color: #2bb673;
+    text-transform: uppercase;
+}
+  
+#homepage header h3 {
+    font-family: nunito, sans-serif;
+    font-size: 38px;
+    font-weight: bolder;
+    margin: 10px 0px 0px 40px;
+    padding: 5px;
+    color: #545454;
+   
+}
+
+#homepage header h4 {
+    font-family: nunito, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 10px 0px 0px 40px;
+    padding: 5px;
+    color: #545454;
+}
+#homepage header h5  {
+
+    font-family: nunito, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    margin: 30px 0px 0px 180px;
+    color: #2bb673;
+}
+
+/*******BLOG PAGE*******/
+
+#blogpage h2 {
+    font-family: nunito, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 110px 0px 0px 40px;
+    padding: 5px;
+    color: #545454;
+}
+
+#blogpage p {
+    font-family: nunito, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 26px;
+    margin: 10px 0px 0px 40px;
+    padding: 5px;
+    color: #545454;
+}
+
+#blogpage p span {
+    font-family: nunito, sans-serif;
+    font-size: 19px;
+    font-weight: bolder;
+    line-height: 26px;
+    margin: 10px 0px 0px 150px;
+    padding: 5px;
+    color: #2bb673;
+    
+}
+
+/******SEGMENT LINES*******/
+
+/*******Samples of my work section*******/
+
+#work {
+    background-color: #eaf6f6;
+    background-size: cover;
+    height: 1135px;
+    margin-top: 30px;
+    padding: 5px 0px 50px 0px;
+    
+}
+
+#work .full-width h2 {
+    color: #545454;
+    font-family: nunito, sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+    margin: 30px 0px 40px 0px;
+    text-align: center;
+
+}
+
+#work .half-width {
+    float: left;
+    margin: 10px 5px 20px 5px;
+    
+}
+
+#work .half-width img {
+    border: 2px solid #545454;
+    margin: 10px 10px 20px 45px;
+    width: 450px;
+    
+}
+
+#work .half-width h3 {
+    color: #545454;
+    font-family: nunito, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 10px 20px 45px;
+}
+
+#work .half-width span {
+    color: #2bb673;
+    text-transform: uppercase;
+}
+
+#work .half-width p {
+    color: #545454;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 10px 10px 20px 45px;
+}
+
+/*******About Section*******/
+
+#about {
+    background-color: #e2efea;
+    background-size: cover;
+    clear: both;
+    height: 680px;
+}
+
+#about .full-width h2 {
+    clear: both;
+    color: #545454;
+    font-family: nunito, sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+    margin: 0px 0px 5px 0px;
+    padding: 40px 0px 5px 0px;
+    text-align: center;
+}
+
+
+#about p, ul{
+    color: #545454;
+    font-size: 18px;
+    letter-spacing: 1.8px;
+    line-height: 33px;
+    margin-left: 70px;
+}
+
+#about span {
+    color: #2bb673;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+/*******CONTACT SECTION*******/
+
+#contact {
+    float: left;
+    height: 300px;
+
+}
+
+
+#contact .full-width h2 {
+        color: #545454;
+        font-family: nunito, sans-serif;
+        font-size: 32px;
+        font-weight: bolder;
+        margin: 50px 0px 30px 0px;
+        text-align: center;
+}
+
+#contact .third-width h3 {
+        color: #2bb673;
+        font-family: nunito, sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        margin: 0 auto;
+        text-align: center;
+
+}
+
+#contact .third-width h5 {
+    font-family: nunito, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 20px 0px 0px 0px;
+    color: #545454;
+    text-align: center;
+}
+
+#contact .third-width img {
+    float: right;
+    margin-right: 55px;
+    padding-top: 30px;
+
+}
+
+footer h6 {
+    clear: both;
+    color: #545454;
+    font-size: 10px;
+    text-align: center;
+
+}
+
